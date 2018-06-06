@@ -26,9 +26,7 @@ less_puppies(0)
 def some_puppies(puppies, allowance)
   if puppies < (allowance % 2)
     puts "Good job, Rachel!"
-  elsif puppies == allowance
-    puts "SLow down, Rachel."
- else
+ else puppies > allowance
    puts "Get back on your puppy restriction, Rachel!"
   end
 end
