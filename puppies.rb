@@ -33,7 +33,7 @@ def some_puppies(puppies, allowance)
   end
 end
 
-some_puppies(5,10)
+some_puppies(6,10)
 
 
 # BONUS
